@@ -16,7 +16,7 @@
         <tr><td>Pizza with Chicken</td><td><img src="tavuklu-pizza.png"></td><td class="price1">20 $</td><td><input id="tavukluid" type="number"></td></tr>
         <tr><td>Pizza with Mushroom</td><td><img src="mantarli-pizza.png"></td><td class="price2">25 $</td><td><input id="mantarliid" type="number"></td></tr>
         <tr><td>Pizza with Pepperoni</td><td><img src="pepperoni-pizza.png"></td><td class="price3">30 $</td><td><input id="pepperoniid" type="number"></td></tr>
-        <tr><td>Milano Pizza</td><td><img src="milano-pizza.png"></td><td class="price">23 $</td><td><input id="milanoid" type="number"></td></tr>
+        <tr><td>Milano Pizza</td><td><img src="milano-pizza.png"></td><td class="price">25 $</td><td><input id="milanoid" type="number"></td></tr>
         <tr><td>Cola</td><td><img src="cola.png"></td><td class="price">15 $</td><td><input id="colaid" type="number"></td></tr>
         <tr><td>You will pay</td><td><button onclick="hesapla()" type="button">CALCULATE</button>  <button onclick="reset()" type="button">RESET</button></td><td></td><td id="totalprice"></td></tr>
         
@@ -39,7 +39,7 @@ var pidcount = document.getElementById("pepperoniid").value;
 var pidtotalprice = pidcount * 30;
 
 var midcount = document.getElementById("milanoid").value;
-var midtotalprice = midcount * 30;
+var midtotalprice = midcount * 25;
 
 var colacount = document.getElementById("colaid").value;
 var colatotalprice = midcount * 15;
