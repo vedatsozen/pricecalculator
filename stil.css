@@ -1,9 +1,12 @@
 body {
 
-background-color: #EFC88B;
+
 margin: auto;
 text-align: center;
-
+background-image: url("pizzabg.jpg");
+background-position: fixed;
+background-size: 100%;
+background-repeat:repeat-y
 }
 
 #container {
